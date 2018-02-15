@@ -14,10 +14,7 @@ public class Test_DemoQA extends TestBase {
 		try{
 			// 1.Pozovi common metodu za sve testove iz TestBase klase
 			startMyTest();
-			
-			
-			//testest
-			
+
 			// 2.Otvori stranicu demoqa.com 
 			myDriver.get("http://demoqa.com/");
 			
