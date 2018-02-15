@@ -6,6 +6,8 @@ import Tools.TestBase;
 
 public class Test_DemoQA extends TestBase {
 	
+	//test1
+	
 	// Anotacija @Test sluzi da TestNG-a "informirate" da odavde pocinje test 
 	@Test
 	public void testRun() throws InterruptedException{
