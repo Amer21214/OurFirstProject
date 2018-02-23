@@ -7,22 +7,22 @@ public class DemoQA_model {
 
 	public WebDriver myDriver;
 	
-	// Konstruktor ove klase
+	// Constructor of this class/model
 	public DemoQA_model(WebDriver myDriver){
 		this.myDriver = myDriver;
 	}
 
-	// Metoda iskljucivo za ovu stranicu (klikni Registration)
+	// Method for this page only (click the "Registration" button)
 	public void Action_RegistrationButton_click(){
 		myDriver.findElement(By.id("menu-item-374")).click();
 	}
 	
-	// Metoda iskljucivo za ovu stranicu (posalji First Name)
+	// Method for this page only (type in First Name)
 	public void Action_FirstName_sendKeys(String firstName){
 		myDriver.findElement(By.id("name_3_firstname")).sendKeys(firstName);
 	}
 	
-	// Metoda iskljucivo za ovu stranicu (posalji Last Name)
+	// Method for this page only (type in Last Name)
 	public void Action_LastName_sendKeys(String lastName){
 		myDriver.findElement(By.id("name_3_lastname")).sendKeys(lastName);
 	}

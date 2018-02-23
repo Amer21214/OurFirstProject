@@ -6,7 +6,7 @@ public class LoadMyPages {
 
 	public DemoQA_model demoQA;
 	
-	// Konstruktor ove klase
+	// Constructor of this class/model
 	public LoadMyPages(WebDriver myDriver){
 		this.demoQA = new DemoQA_model(myDriver);
 	}
